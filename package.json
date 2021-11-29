@@ -11,6 +11,7 @@
     "build": "webpack",
     "start": "webpack-dev-server",
     "lint": "eslint src",
+    "stylelint": "npx stylelint **/*.scss",
     "start:husky": "husky install"
   },
   "devDependencies": {
@@ -23,6 +24,8 @@
     "husky": "^7.0.4",
     "sass": "^1.43.5",
     "sass-loader": "^12.3.0",
+    "stylelint": "^14.1.0",
+    "stylelint-config-standard-scss": "^3.0.0",
     "webpack": "^5.64.4",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.6.0"
