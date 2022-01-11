@@ -33,8 +33,8 @@ module.exports = {
 			},
 			// images
 			{
-				test: /\.(svg|ico|png|webp|jpg|gif|jpeg)$/, // <-- check if the extension of used file is included
-				type: "asset/resource",
+				test: /\.(png|svg|jpg|jpeg|gif)$/i, // <-- check if the extension of used file is included
+				type: 'asset/resource',
 				generator: {
 					filename: "assets/images/[name][ext]"
 				}
